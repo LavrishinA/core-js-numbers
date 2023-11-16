@@ -320,7 +320,7 @@ function getSumOfDigits(num) {
  *   15  => false
  */
 function isPowerOfTwo(num) {
-  return num.toString(2).replace(/0/g, '') == 1;
+  return +num.toString(2).replace(/0/g, '') === 1;
 }
 
 /**
